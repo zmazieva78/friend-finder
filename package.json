@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "UW Coding Bootcamp, homework 13",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmazieva78/friend-finder.git"
+  },
+  "keywords": [
+    "bootcamp",
+    "matchmaking"
+  ],
+  "author": "Zarina Mazieva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmazieva78/friend-finder/issues"
+  },
+  "homepage": "https://github.com/zmazieva78/friend-finder#readme"
+}
