@@ -1,0 +1,177 @@
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url("/images/friendship.jpg");
+    font-size:14px;
+
+}
+.footer {
+  clear: both;
+} 
+  
+.container{
+      padding:10px;  
+ }
+  
+#Logo{
+    padding:16px;
+  /*  text-decoration: underline;
+    text-decoration-style:wavy;*/
+    font-family: 'Berkshire Swash', cursive;
+}
+  
+#gotosurvey{
+    width:300px;
+    height:100px;
+    background-color: rgb(13, 10, 235);
+    font-size:26px;
+}
+  
+#submit{
+    width:200px;
+    height:50px;
+    background-color:rgb(13, 10, 235);
+    color:#fff;
+    font-size:25px;
+    margin:10px;
+}
+  
+#image{
+    width:60%;
+    height:auto;
+    padding:10px;
+}
+  
+.wrapper{
+    height:100vh;
+    width:100%;
+    box-sizing:border-box;
+}
+  
+.input-group{
+    margin-bottom:30px;
+}
+  
+#fieldsRequired{
+    color:red;
+}
+  
+.line1{
+    background-color:#7ecadd;
+    padding:10px;
+    color:#fff;
+    margin:10px;
+    display:inline-block;
+}
+  
+.line2{
+    background-color:#bcecb2;
+    padding:10px;
+    color:#fff;
+    margin:10px;
+    display:inline-block;
+}
+
+#FourOFour{
+    font-size :250px;
+    color:#c43235;
+}
+  
+  h1{
+    font-size:60px;
+    color: #fff;
+  }
+  
+  h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: #fff;
+  }
+  h3{
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  h4{
+    color: #fff;
+  }
+  
+  select{
+    width:30%;
+    color:#000;
+  }
+  
+  .characters{
+    height:200px;
+    width:200px;
+  }
+  
+  #match{
+    visibility: hidden;
+  }
+
+  @media screen and (max-width: 2000px) {
+    .mainFooter{
+      bottom:0px;
+      position:static;
+    }  
+    .wrapper{
+      height:auto;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    footer,.mainFooter{
+      bottom:0px;
+      position:relative;
+    }
+    .wrapper{
+      height:auto;
+   }
+  }
+  
+  #footerText{
+      color:#9fa8a3;
+    font-size:12px;
+  }
+  
+  abbr{
+    text-decoration:none;
+  }
+  
+  a:active{
+    text-decoration:none;
+  }
+  
+  a:link{
+    text-decoration: none;
+   /* color:#e8edf3;*/
+  }
+  
+  a:visited{
+    text-decoration:none;
+    /*color:#e8edf3;*/
+  }
+  
+  a:hover{
+    text-decoration:none;
+    /*color:#e6cf8b;*/
+  }
+  
+  /* Icons */
+  .fa {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    background-color:#808080;
+    color:#fff
+  }
+  
+  .fa:hover {
+     color:#22264b;
+     text-decoration: none;
+     background-color:#fff;
+  }

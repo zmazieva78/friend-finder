@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friend Finder</title>
+    <!-- Style Sheets links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+    <!-- icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Signika+Negative" rel="stylesheet">
+    <!-- Scripts -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body> 
+    <div  id="header">   
+      <div class="container text-left">
+      </div>
+    </div>
+    <div class = "wrapper" id = "data">
+      <div class="container text-center">
+        <h1><div id="Logo">Friend Finder</div></h1>
+        
+        <div class =" questions text-left">        
+          <form data-toggle="validator" role="form">
+            <div class="form-group">
+              <p id = "fieldsRequired"></p>
+              <label><h3>Enter your Name</h3></label>
+              <input type="text" class="form-control" aria-label="name" id="name" required><br/>
+            </div>
+          </form>
+
+          <h3> Select level of your choice.. </h3>
+
+        </div>
+        <div class ="row text-justified">
+        
+          <div class ="line1" class = "col-lg-4 col-md-4 col-sm-6">
+            <img src = "/aryaStark.jpg" alt="AryaStark" class="characters">
+            <h3>Question 1 </h3>
+            <h5>Arya Stark - Game of Thrones</h5>
+            <select id="1"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line2" class = "col-lg-4 col-md-4 col-sm-6">
+            <img src = "/spock.jpg" alt="Spock" class="characters">
+            <h3>Question 2</h3>
+            <h5>Spock - Star Track</h5>
+            <select id="2"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line1" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/DanaScully.jpg" alt="Scully" class="characters">
+            <h3>Question 3</h3>
+            <h5>Dana Scully - The X Files</h5>
+            <select id="3"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line2" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/SherlockHolmes.jpg" alt="Sherlock" class="characters">
+            <h3>Question 4</h3>
+            <h5>Sherlock Holmes - Sherlock Holmes</h5>
+            <select id="4"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line1" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/sookie.jpg" alt="Sookie" class="characters">
+            <h3>Question 5</h3>
+            <h5>Sookie St. James - Gilmore Girls</h5>
+            <select id="5"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line2" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/WalterWhite.jpg" alt="White" class="characters">
+            <h3>Question 6</h3>
+            <h5>Walter White - Breaking Bad</h5>
+            <select id="6"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line1" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/katDennings.jpg" alt="Sadu" class="characters">
+            <h3>Question 7</h3>
+            <h5>Kat Dennings - 2 Broke Girls</h5>
+            <select id="7"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line2" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/underwood.jpg" alt="underwood" class="characters">
+            <h3>Question 8</h3>
+            <h5>Frank Underwood- House of Cards</h5>
+            <select id="8"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line1" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/scoobyDoo.png" alt="Scooby" class="characters">
+            <h3>Question 9</h3>
+            <h5>Scooby Doo - Scooby Doo</h5>
+            <select id="9"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+          <div class ="line2" class ="col-lg-4 col-md-4 col-sm-6">
+            <img src = "/bachman.jpg" alt="Backman" class="characters">
+            <h3>Question 10</h3>
+            <h5>Erlich Bachman - The Silicon Valley</h5>
+            <select id="10"> 
+              <option value="1">1 (Strongly Desagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5" selected>5 (Strongly Agree)</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+    </div> 
+
+    <div class ="text-center">
+      <form data-toggle="validator" role="form">
+        <div class="form-group">
+          <button btn-default id="submit">Sumbit</button> <br/><br/> 
+        </div>
+      </form>
+      <div id = "match">
+        <hr/>
+        <h2>Your Match</h2>
+        <img src="#" id ="matchImage" class="characters" alt="your match">
+        <h4 id="matchName">Name</h4>
+      </div>      
+    </div>
+
+    <footer class="main footer">
+        <div class="col pt-2 mt-5" style="background-color: rgb(97, 94, 94)">
+        <p class="text-center" style="color:#ffffff"><small>Copyright @ Zarina Mazieva</small><a href="https://github.com/zmazieva78" target="_blank" class="fa fa-github"></a></p>
+    </footer>
+
+    <script type="text/javascript">
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+        function validation() {
+          var Valid = true;
+          $(".form-control").each(function() {
+            if ($(this).val() === "") {
+              Valid = false;              
+            }
+          });
+          return Valid;
+        }
+        if(validation()) {
+          $("#fieldsRequired").text("");
+          var newFriend = {
+            name: $("#name").val().trim(),
+            scores: [
+              //$("#1").find(':selected'). attr ('data-id'),
+              parseInt($("#1").val()),
+              parseInt($("#2").val()),
+              parseInt($("#3").val()),
+              parseInt($("#4").val()),
+              parseInt($("#5").val()),
+              parseInt($("#6").val()),
+              parseInt($("#7").val()),
+              parseInt($("#8").val()),
+              parseInt($("#9").val()),
+              parseInt($("#10").val())
+            ]
+          }
+          console.log("Array : " + newFriend);
+          var currentUrl = window.location.origin;
+          $.post(currentUrl + "/api/friends", newFriend,function(data) {
+            $("#name").val("");
+            $("#link").val("");
+            $("#match").css("visibility" ,"visible");
+            $("#matchImage").attr("src",data.photo);
+            $("#matchName").text(data.name);
+            console.log("")
+          });     
+        } 
+        else{
+          $("#fieldsRequired").text(" * Fields Required to be filled to continue");
+           window.scrollTo(0, 0);
+        }  
+      });      
+    </script>
+
+  </body>
+</html>
