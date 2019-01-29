@@ -13,10 +13,10 @@ var friends = [{
         5,
         4
     ]
-    },
-    {
+},
+{
     "name": "Benjamin Button",
-    "photo": "https://martinhauser.com/media/thumbs/mediafiles/images/2014/05/P3OJb18Jo1C7.jpg",
+    "photo": "http://1.bp.blogspot.com/-3fpTtW7IDJU/TiO2UTmBu5I/AAAAAAAAEB4/5KAoaWRhUn4/s1600/bradpittold+benjamin+button.jpg",
     "scores": [
         5,
         2,
@@ -29,10 +29,10 @@ var friends = [{
         5,
         4
     ]
-    },
-  {
+},
+{
     "name": "Minion",
-    "photo": "http://antigenerictrademark.com/uploads/3/3/1/6/3316559/5941508.png",
+    "photo": "https://www.frankfurt-tipp.de/fileadmin/temp/kino/5309-picture-fancybox-Minionsdrei.jpg",
     "scores": [
         2,
         5,
@@ -45,8 +45,8 @@ var friends = [{
         5,
         5
     ]
-    },
-    {
+},
+{
     "name": "Emma Clarke",
     "photo": "https://flavorwire.files.wordpress.com/2012/01/r-emma.jpg",
     "scores": [
@@ -60,11 +60,11 @@ var friends = [{
         3,
         5,
         2
-  ]
-  },
-  {
+    ]
+},
+{
     "name": "Jacob Larson",
-    "photo": "https://martinhauser.com/media/thumbs/mediafiles/images/2016/03/d5hi1lvqyDRO.jpg",
+    "photo": "http://vignette4.wikia.nocookie.net/twilightsaga/images/7/7f/Jacob-555644_429620497081182_285483444_n.jpg/revision/latest?cb=20120728050833",
     "scores": [
         1,
         5,
@@ -77,7 +77,7 @@ var friends = [{
         4,
         1
     ]
-    }
-  ];
-  
-  module.exports = friends;
+}
+];
+
+module.exports = friends;

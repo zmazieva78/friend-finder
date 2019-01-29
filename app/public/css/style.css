@@ -56,7 +56,7 @@ body {
 }
   
 .line1{
-    background-color:#7ecadd;
+    /* background-color:#7ecadd; */
     padding:10px;
     color:#fff;
     margin:10px;
@@ -64,7 +64,7 @@ body {
 }
   
 .line2{
-    background-color:#bcecb2;
+    /* background-color:#bcecb2; */
     padding:10px;
     color:#fff;
     margin:10px;
