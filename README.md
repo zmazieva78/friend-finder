@@ -16,3 +16,9 @@
 - Serve the application in ``` localhost:8080 ``` in your browser
 - Push ``` Start ``` button to take survey
 - Click ``` Submit ``` button to get your matching friend
+
+## Links
+
+https://github.com/zmazieva78/friend-finder.git
+
+https://safe-peak-47355.herokuapp.com/
